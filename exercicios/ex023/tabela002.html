@@ -8,13 +8,15 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            
 
         }
 
         table {
             width: 500px;
             border-collapse: collapse;
-
+            position: relative;
+            
         }
 
         td, th {
@@ -38,6 +40,33 @@
             padding: 10px;
             background-color: lightgrey;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+
+            background-color: lightgray;
+        }
+
+       div.tabela{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       }
+
+       h1 {
+        text-align: center;
+        background-image: url(https://st4.depositphotos.com/1010613/21556/i/450/depositphotos_215566564-stock-photo-businesswoman-hand-calculating-invoice-calculator.jpg);
+        color: rgb(165, 42, 42);
+        background-position: right;
+        background-size: cover;
+        
+       }
     </style>
 </head>
 <body>
@@ -55,109 +84,188 @@
                 tr, td, th
     -->
 
-    <table>
-        <caption>
-            Populacao das unidades federativas
-        </caption>
-        <thead>
-            <tr>
-                <th scope="col">Estado</th>
-                <th scope="col">Populacao</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-            <tr>
-                <td>Sao Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num"> 21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 294 943</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th scope="row">Total de Habitantes</th>
-                <td class="num">0000</td>
-            </tr>
-        </tfoot>
-    </table>
+    <div class="tabela">
+        <table>
+            <caption>
+                Populacao das unidades federativas
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Populacao</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num"> 21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 294 943</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de Habitantes</th>
+                    <td class="num">0000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, officiis ipsum nobis quia molestiae adipisci doloremque, suscipit, dolor nam veniam eius eos tempore perspiciatis natus ducimus explicabo odit delectus vero?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dignissimos delectus nostrum quis est sunt, quisquam id necessitatibus expedita aliquam qui ipsam corporis excepturi natus sapiente cupiditate, beatae consequuntur voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore praesentium nobis nulla tenetur enim, obcaecati non molestias possimus deserunt unde totam cum est aliquid omnis ullam officia quidem pariatur aspernatur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo autem quasi fuga, sed ratione beatae. Sunt in sed praesentium id, laudantium architecto esse voluptate cumque beatae dolorum dolor doloremque tempora.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore pariatur nostrum iure perferendis ullam quidem accusamus vitae quasi veritatis corrupti consequatur expedita fugit magni iste aspernatur, velit repellendus ad. Nam.
+    </p>
 
 </body>
 </html>
